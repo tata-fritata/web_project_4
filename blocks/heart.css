@@ -1,0 +1,10 @@
+.heart {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+  margin-right: 30px;
+}
+.heart__image:hover {
+  border: #000000;
+  opacity: 0.5;
+}
