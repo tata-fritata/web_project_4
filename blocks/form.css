@@ -76,6 +76,11 @@
   background-color: rgba(0, 0, 0, 0.1);
   border: none;
 }
+.popup__close:hover {
+  opacity: 0.6;
+  border: 2px solid #ffffff;
+  border: none;
+}
 @media screen and (max-width: 595px) {
   .popup__content {
     width: 100%;
