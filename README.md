@@ -12,7 +12,7 @@ Around The U.S built for different types of screens. The structure and styles of
 
 **Link to the website**
 
-https://tata-fritata.github.io/se_project_aroundtheus/
+https://tata-fritata.github.io/web_project_4/
 
 **Figma**
 
