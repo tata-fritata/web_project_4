@@ -57,6 +57,7 @@
 .profile__button:hover {
   opacity: 0.6;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 .profile__edit {
   width: 24px;
@@ -71,6 +72,7 @@
   opacity: 0.6;
   border: 2px solid #ffffff;
   border: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 900px) {
   .profile__title {

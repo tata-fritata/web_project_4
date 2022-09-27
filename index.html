@@ -9,21 +9,21 @@
   </head>
   <body class="page">
     <div class="popup popup_type_profile">
-      <!--because we have diffrenet popups-->
       <div class="popup__content">
-        <button class="popup__close"></button>
+        <button type="button" class="popup__close"></button>
         <h3 class="popup__title">Edit profile</h3>
-        <form class="popup__form popup__form_type_profile">
-          <label class="popup__label"></label>
+        <form class="popup__form popup__form_type_profile" name="profileForm">
           <input
             type="text"
             class="popup__input popup__input_type_name"
+            name="fName"
             placeholder="Name"
           />
-          <label class="popup__label"></label>
+
           <input
             type="text"
             class="popup__input popup__input_type_about"
+            name="fAbout"
             placeholder="About me"
           />
           <button type="submit" class="popup__button">Save</button>

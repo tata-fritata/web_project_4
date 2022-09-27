@@ -14,7 +14,7 @@
 }
 .popup__content {
   width: 100%;
-  max-width: 430px;
+  max-width: calc(430px - 72px);
   background-color: #fff;
   padding-right: 36px;
   padding-left: 36px;
@@ -35,24 +35,20 @@
   visibility: visible;
 }
 .popup__form {
-  margin-top: 54px;
+  margin-top: calc(54px - 29.74px);
   margin-bottom: 37px;
 }
 .popup__input {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0px 0px 13.26px 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-}
-.popup__label {
-  display: block;
-}
-.popup__label:last-of-type {
   margin-top: 29.74px;
 }
+
 .popup__button {
   width: 100%;
   margin-top: 48px;
@@ -64,27 +60,34 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  border: none;
+}
+.popup__button:hover {
+  opacity: 0.8;
+  border: 2px solid #000000;
+  cursor: pointer;
 }
 .popup__close {
-  background-image: url(../images/CloseIcon.png);
+  background-image: url(../images/CloseIcon.svg);
   background-repeat: no-repeat;
   height: 40px;
   width: 40px;
   position: absolute;
   top: -35px;
   right: -40px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
 }
 .popup__close:hover {
   opacity: 0.6;
   border: 2px solid #ffffff;
   border: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 595px) {
   .popup__content {
     width: 100%;
-    max-width: 282px;
+    max-width: calc(282px - 44px);
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -94,14 +97,11 @@
     line-height: 22px;
   }
   .popup__form {
-    margin-top: 76px;
+    margin-top: calc(76px - 29.74px);
     margin-bottom: 25px;
   }
   .popup__input {
     padding: 0px 0px 9px 0px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
   }
   .popup__button {
     margin-top: 46px;
@@ -113,7 +113,7 @@
     background-image: url(../images/CloseIcon325.svg);
     height: 26px;
     width: 26px;
-    position: absolute;
+
     top: -45px;
     right: 0px;
     padding: 0;
